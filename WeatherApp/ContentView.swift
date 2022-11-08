@@ -14,8 +14,8 @@ struct ContentView: View {
                 HStack {
                     Image(systemName: object.icon)
                     Text("\(object.high)º C")
-                        .foregroundColor(Color.red)
-                    Text(object.day)
+                        .foregroundColor(Color.blue)
+                    NavigationLink(object.day, destination: DetailView(data: object))
                     
                     
                 }
@@ -26,6 +26,7 @@ struct ContentView: View {
         .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
