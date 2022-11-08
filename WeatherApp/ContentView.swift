@@ -13,16 +13,14 @@ struct ContentView: View {
             List(DataModel.data, id:  \.self) { object in
                 HStack {
                     Image(systemName: object.icon)
+                        .foregroundColor(object.color)
                     Text("\(object.high)º C")
                         .foregroundColor(Color.blue)
                     NavigationLink(object.day, destination: DetailView(data: object))
-                    
-                    
                 }
             }
             .navigationTitle("Cape Town")
         }
-
         .padding()
     }
 }
