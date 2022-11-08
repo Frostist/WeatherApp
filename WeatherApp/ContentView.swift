@@ -9,12 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List(DataModel.data, id:  \.self) { object in
+                HStack {
+                    Image(systemName: object.icon)
+                    Text("\(object.high)º C")
+                        .foregroundColor(Color.red)
+                    Text(object.day)
+                    
+                    
+                }
+            }
+            .navigationTitle("Cape Town")
         }
+
         .padding()
     }
 }

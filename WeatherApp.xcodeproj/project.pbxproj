@@ -14,6 +14,7 @@
 		CCB78699291A794800D1D1B2 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB78698291A794800D1D1B2 /* WeatherAppTests.swift */; };
 		CCB786A3291A794800D1D1B2 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB786A2291A794800D1D1B2 /* WeatherAppUITests.swift */; };
 		CCB786A5291A794800D1D1B2 /* WeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB786A4291A794800D1D1B2 /* WeatherAppUITestsLaunchTests.swift */; };
+		CCB786B2291A7C0200D1D1B2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB786B1291A7C0200D1D1B2 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CCB7869E291A794800D1D1B2 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB786A2291A794800D1D1B2 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		CCB786A4291A794800D1D1B2 /* WeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCB786B1291A7C0200D1D1B2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CCB78687291A794500D1D1B2 /* WeatherAppApp.swift */,
 				CCB78689291A794500D1D1B2 /* ContentView.swift */,
+				CCB786B1291A7C0200D1D1B2 /* DataModel.swift */,
 				CCB7868B291A794800D1D1B2 /* Assets.xcassets */,
 				CCB7868D291A794800D1D1B2 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				CCB7868A291A794500D1D1B2 /* ContentView.swift in Sources */,
 				CCB78688291A794500D1D1B2 /* WeatherAppApp.swift in Sources */,
+				CCB786B2291A7C0200D1D1B2 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
